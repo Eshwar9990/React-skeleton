@@ -10,7 +10,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.m?js$/,
+        test: /\.[tj]sx?$/,
         exclude: /(node_modules|bower_components)/,
         use: {
           loader: "babel-loader"
@@ -33,6 +33,9 @@ module.exports = {
         use: ["file-loader"]
       }
     ]
+  },
+  resolve: {
+    extensions: ['.js', '.jsx'],
   },
   devServer: {
     contentBase: path.join(__dirname, "dist"),
