@@ -1,0 +1,43 @@
+# From https://github.com/github/gitignore
+#  - Node.gitignore
+#  - Ruby.gitignore
+#  - Sass.gitignore
+
+*.css.map
+*.gem
+*.log
+*.pid
+*.pid.lock
+.dat*
+.grunt
+.npm
+.rvmrc
+/.bundle/
+/.config
+/coverage/
+/doc/
+/lib/bundler/man/
+/pkg/
+/spec/examples.txt
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+/tmp/
+/vendor/bundle
+build/
+build/Release
+coverage
+jspm_packages
+lib-cov
+logs
+node_modules
+npm-debug.log*
+pids
+reports
+screenshots
+target
+aggregated-translations
+errorScreenshots
+tests/wdio/__snapshots__/latest
+tests/wdio/__snapshots__/diff
+.idea/*
